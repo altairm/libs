@@ -1,0 +1,142 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    height:100%;
+}
+body{
+  height: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+  color: #303030;
+  direction: rtl;
+  
+}
+#conteiner {
+    width: 980px;
+    margin: 0 auto;
+}
+/*HEADER*/
+#header {
+    border-bottom: 1px solid rgb(152,72,6);
+}
+/*LOGO*/
+#header .logo {
+    height: 93px;
+    width: 245px;
+    margin-right: 55em;
+}
+#header img {
+    border: none;
+}
+/*LOGO*/
+/*MENU*/
+#header .menu {
+    height: 1.5em;
+}
+.menu ul {
+    list-style: none;
+}
+.menu li{
+    float: right;
+    margin: 0 0 0 2em;
+}
+.menu a {
+    height: 1.5em;
+    line-height: 1.5em;
+    float: right;
+    display: block;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(152,72,6);
+    padding: 0 1.5em 0 1.5em;
+}
+/*.menu a.active {
+    color: rgb(152,72,6);
+    background-color: #FFF;
+}*/
+/*MENU*/
+/*HEADER*/
+
+/*CONTENT*/
+h1 {
+    color: rgb(152,72,6);
+    font-size: 1.5em;
+}
+
+#content {
+    border: 1px solid rgb(152,72,6);
+    margin-top: 2em;
+    padding: 1.5em;
+    overflow: auto;
+    color: #1F497D;
+}
+#content h1 {
+    line-height: 3em;
+}
+#content .text {
+    line-height: 1.5em;
+    padding-bottom: 2em;
+    overflow: auto;
+    height: 100%;
+}
+/*#content .text p {
+    height: 2em;
+}*/
+#content .text input.input {
+    width: 13.5em;
+}
+#content .text td.input {
+    width: 5em;
+    text-align: left;
+}
+#content .text td {
+    text-align: left;
+}
+#content .text label {
+    display: block;
+    float: right;
+    width: 5em;
+}
+#content .error {
+    color: red;
+}
+/*CONTENT*/
+/*FOOTER*/
+#footer{
+	position:relative;
+}
+#footer .pic {
+	position:absolute;
+	bottom:0;
+	left:-40px;
+    width: 401px;
+    height: 139px;
+}
+#footer .slogan{
+/*    margin: 2em 2em;*/
+}
+#footer .slogan h2{
+	height:2.5em;
+	line-height:2.5em;
+	padding-right:2em;
+        color: rgb(152,72,6);
+}
+#info {
+    color: #1F497D;
+    text-align: center;
+}
+#info ul {
+    list-style: none;
+}
+#info li{
+   display: inline;
+}
+#info a {
+    text-decoration: none;
+}
+/*FOOTER*/
+

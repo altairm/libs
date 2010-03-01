@@ -1,0 +1,12 @@
+<?php
+defined('is_running') or die('Not an entry point...');
+$fileModTime = '1267369724';
+
+$gpAdmin['username'] = 'michael';
+$gpAdmin['granted'] = 'all';
+$gpAdmin['freq_scripts']['Admin_Theme'] = 32;
+$gpAdmin['freq_scripts']['Admin_Theme_Content'] = 24;
+$gpAdmin['freq_scripts']['Admin_Extra'] = 11;
+$gpAdmin['freq_scripts']['Admin_Menu'] = 3;
+$gpAdmin['freq_scripts']['Admin_Configuration'] = 0;
+$gpAdmin['checksum'] = -1988193716;

@@ -1,0 +1,31 @@
+<?php
+defined('is_running') or die('Not an entry point...');
+$fileModTime = '1267473162';
+
+$config['theme'] = 'Qoffice/brown';
+$config['title'] = 'הצלחה שלנו היא החיסכון שלך';
+$config['keywords'] = 'הצלחה שלנו היא החיסכון שלך';
+$config['desc'] = 'הצלחה שלנו היא החיסכון שלך';
+$config['timeoffset'] = '0';
+$config['indexfile'] = 'index.php';
+$config['language'] = 'he';
+$config['langeditor'] = 'he';
+$config['dateformat'] = '%m/%d/%y - %I:%M %p';
+$config['gpversion'] = '1.6RC2';
+$config['linkto'] = 'Powered by <a href="http://www.gpEasy.com" title="The Fast and Easy CMS">gpEasy CMS</a>';
+$config['theme_handlers'] = array();
+$config['maximgarea'] = '691200';
+$config['check_uploads'] = true;
+$config['customlang']['your_name'] = 'שם:';
+$config['customlang']['your_email'] = 'אי-מייל';
+$config['customlang']['subject'] = 'טל\' / נייד';
+$config['customlang']['message'] = 'הודעה';
+$config['customlang']['send_message'] = 'שלח';
+$config['customlang']['extra'] = 'חברה';
+$config['homepath'] = 'דף_הבית';
+$config['dirPrefix'] = '';
+$config['toemail'] = 'altairm@gmail.com';
+$config['recaptcha_public'] = '';
+$config['recaptcha_private'] = '';
+$config['jquery'] = 'local';
+$config['hidegplink'] = 'hide';
