@@ -16,5 +16,6 @@ function setCookie (name, value, path, domain, expires, esc) {
     if(esc) {
         value = escape(value);
     }
+
     document.cookie = name + "=" + String(value) + '; path=' + path + exp + '; domain=' + domain;
 }

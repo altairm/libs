@@ -12,6 +12,7 @@ $testConveyor->process($testObj);
 if(!$testObj->getResult()) {
     die ("conveyor not work!");
 }
+
 $testObj->setData(null);
 $testConveyor->process($testObj);
 if($testObj->getResult()) {
