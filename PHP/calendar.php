@@ -1,12 +1,20 @@
 <?php
-
+/**
+ * Usage:
+ * $cal = new Calendar(2010, 6);
+ * $cal->getCalendarAsXML('d');
+ * 
+ * $cal1 = new Calendar(2010, 6, Calendar::WEEK_START_MONDAY);
+ * $cal1->getCalendar();
+ * 
+ */
 class Calendar {
     
     const WEEK_START_SUNDAY = 0;
     const WEEK_START_MONDAY = 1;
     
     protected $_firstDay = null;
-    protected $_lastDay = null;
+    protected $_lastDay  = null;
     
     public function __construct($year , $month, $weekStart = Calendar::WEEK_START_SUNDAY) {
         $countOfDays  = date('t', mktime(0, 0, 0, $month, 1, $year));        
@@ -75,9 +83,4 @@ class Calendar {
         return $xml;
     }
 }
-
-$cal = new Calendar(2010, 6);
-print($cal->getCalendarAsXML('d',array('3') ));
-$cal1 = new Calendar(2010, 6, Calendar::WEEK_START_MONDAY);
-var_dump($cal1->getCalendar());
 ?>
